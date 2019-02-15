@@ -81,10 +81,6 @@ export class Answer extends Component<any, IExamState> {
     this.handleQuestionIdxUpdate();
   }
 
-  setUserAnswer = () => {
-    console.log('33');
-  }
-
   renderQuestion() {
     const currentQuestionIdx = this.props.match.params.qIdx;
     const { currentQuestion, userAnswer } = this.state;
@@ -118,7 +114,7 @@ export class Answer extends Component<any, IExamState> {
       { status === 'ready' && currentQuestion !== null && this.renderQuestion() }
       { status === 'failed' && this.renderErrorMsg() }
       { (status === 'loading' || currentQuestion === null) && <Skeleton /> }
-      <Button href={PATH.result} text='Return to Result page' />
+      <Button href={PATH.result} text='戻る' />
     </PageContainer>);
   }
 }

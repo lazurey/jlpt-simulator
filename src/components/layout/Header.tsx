@@ -13,12 +13,12 @@ const headerStyles = css({
   ' a': {
     color: WHITE_COLOR,
     textDecoration: 'none',
-    fontSize: '22px',
+    fontSize: '18px',
   },
 });
 
 export const Header = () => (
   <header className={headerStyles}>
-    <Link to='/'>JLPT テスト　準備中</Link>
+    <Link to='/'>JLPT 模擬試験</Link>
   </header>
 );

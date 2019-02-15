@@ -29,6 +29,9 @@ const btnStyles = css({
   borderRadius: '20px',
   minWidth: '120px',
   lineHeight: '40px',
+  '&:hover': {
+    boxShadow: '0 3px 3px rgba(0, 0, 0, 0.1)',
+  },
   '&.btn-primary': {
     color: WHITE_COLOR,
     backgroundColor: PRIMARY_COLOR,
@@ -52,7 +55,7 @@ const btnStyles = css({
     backgroundColor: ERROR_COLOR,
     color: WHITE_COLOR,
     '&:hover': {
-      opacity: 0.7,
+      opacity: 0.9,
     },
   },
   '&.btn-disabled': {
@@ -60,6 +63,7 @@ const btnStyles = css({
     cursor: 'not-allowed',
     '&:hover': {
       backgroundColor: TEXT_SEC_COLOR,
+      boxShadow: 'none',
     },
   },
   '&.btn-round': {
@@ -68,6 +72,7 @@ const btnStyles = css({
     height: '50px',
     lineHeight: '50px',
     borderRadius: '100%',
+    marginBottom: 0,
   },
 });
 

@@ -25,6 +25,7 @@ const optionStyles = css({
   },
   '&:hover': {
     backgroundColor: `rgba(${PRIMARY_COLOR_RGB}, 0.06)`,
+    boxShadow: '0 3px 3px rgba(0, 0, 0, 0.1)',
   },
   '&.bg-correct': {
     backgroundColor: `rgba(${PRIMARY_COLOR_RGB}, 0.3)`,

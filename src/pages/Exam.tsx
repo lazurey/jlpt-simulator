@@ -87,6 +87,10 @@ export class Exam extends Component<any, IExamState> {
     const prevQuestionIdx = prevProps.match.params.qIdx;
     if (prevQuestionIdx !== currentQuestionIdx) {
       this.handleQuestionIdxUpdate();
+      this.setState({
+        userAnswer: '',
+        currentQuestion: null,
+      });
     }
   }
 
@@ -100,7 +104,7 @@ export class Exam extends Component<any, IExamState> {
     const nextLink = (hasNext)
       ? `${PATH.exam}/${parseInt(currentQuestionIdx, 10) + 1}`
       : PATH.result;
-    const nextLinkText = (hasNext) ? '次へ' : 'Check Result';
+    const nextLinkText = (hasNext) ? '次へ' : 'チェック';
     return (<div>
         <Button text={nextLinkText} href={nextLink} disabled={!this.state.userAnswer} />
       </div>);

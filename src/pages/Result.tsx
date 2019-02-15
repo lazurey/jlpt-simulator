@@ -37,16 +37,15 @@ export const Result = () => {
   }
   const report = generateReport(userAnswers);
   return (<PageContainer>
-    <h2>Test Result</h2>
+    <h2>点数: {report.overall.score}%</h2>
     <ScoreBar title='Overall' {...report.overall} />
-    <small>{report.overall.score}</small>
-    <h4>Each section</h4>
+    <h4>詳しいポイント</h4>
     <ScoreBar title={QUESTION_TYPE_JP[QUESTION_TYPE.Word]} {...report[QUESTION_TYPE.Word]} />
     <ScoreBar title={QUESTION_TYPE_JP[QUESTION_TYPE.Volcabulary]} {...report[QUESTION_TYPE.Volcabulary]} />
     <ScoreBar title={QUESTION_TYPE_JP[QUESTION_TYPE.Grammar]} {...report[QUESTION_TYPE.Grammar]} />
     <div className={actionStyles}>
       <AnswerList userAnswers={userAnswers} />
-      <Button href={PATH.home} text='Start over again' type='secondary' />
+      <Button href={PATH.home} text='ホームページへ戻る' type='secondary' />
     </div>
   </PageContainer>);
 };
