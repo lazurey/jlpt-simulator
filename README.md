@@ -6,3 +6,12 @@ Built with
 - TypeScript
 - emotion
 - Webpack 4.x
+
+## To-DOs
+
+**Tech-wise**
+1. [-] Generate test bank status automatically
+1. [] Cache questions in memory
+
+**Content-wise
+1. [] Find an easier way to maintain the test bank
