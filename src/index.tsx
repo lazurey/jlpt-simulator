@@ -5,6 +5,7 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 import { Footer, Header, Main } from './components/layout';
 import PATH from './constants/routes';
+import { WARNING_COLOR } from './constants/theme';
 import { AboutHelp, Answer, Exam, Home, NoMatch, Result } from './pages';
 
 // tslint:disable
@@ -16,9 +17,11 @@ injectGlobal`
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     font-size: 14px;
     line-height: 1.6;
+    background-color: #fff;
   }
   a {
     text-decoration: none;
+    color: ${WARNING_COLOR};
   }
 `;
 

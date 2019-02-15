@@ -1,6 +1,6 @@
 import { css, cx } from 'emotion';
 import { Component, default as React } from 'react';
-import { BG_COLOR, ERROR_COLOR_RGB, PRIMARY_COLOR_RGB } from '../../constants/theme';
+import { ERROR_COLOR_RGB, PRIMARY_COLOR_RGB } from '../../constants/theme';
 
 interface IRadioOptionComp {
   value: string;
@@ -12,7 +12,7 @@ interface IRadioOptionComp {
 }
 
 const optionStyles = css({
-  border: `1px solid ${BG_COLOR}`,
+  backgroundColor: '#fff',
   padding: '10px',
   width: '100%',
   display: 'flex',
@@ -24,14 +24,14 @@ const optionStyles = css({
     width: '30px',
   },
   '&:hover': {
-    backgroundColor: `rgba(${PRIMARY_COLOR_RGB}, 0.06)`,
+    backgroundColor: `rgba(${PRIMARY_COLOR_RGB}, 0.26)`,
     boxShadow: '0 3px 3px rgba(0, 0, 0, 0.1)',
   },
   '&.bg-correct': {
-    backgroundColor: `rgba(${PRIMARY_COLOR_RGB}, 0.3)`,
+    backgroundColor: `rgba(${PRIMARY_COLOR_RGB}, 0.6)`,
   },
   '&.bg-wrong': {
-    backgroundColor: `rgba(${ERROR_COLOR_RGB}, 0.3)`,
+    backgroundColor: `rgba(${ERROR_COLOR_RGB}, 0.6)`,
   },
 });
 

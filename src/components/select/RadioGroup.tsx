@@ -26,9 +26,10 @@ const groupStyles = css({
   padding: '10px 0',
   marginBottom: '10px',
   ' > .label': {
-    width: '30%',
+    width: '80px',
     fontSize: '16px',
     fontWeight: 700,
+    lineHeight: '40px',
   },
   ' .options': {
     width: '100%',
