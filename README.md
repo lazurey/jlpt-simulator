@@ -10,8 +10,10 @@ Built with
 ## To-DOs
 
 **Tech-wise**
-1. [-] Generate test bank status automatically
-1. [] Cache questions in memory
 
-**Content-wise
-1. [] Find an easier way to maintain the test bank
+1. [x] Generate test bank status automatically
+1. [ ] Cache questions in memory
+
+**Content-wise**
+
+1. [ ] Find an easier way to maintain the test bank
