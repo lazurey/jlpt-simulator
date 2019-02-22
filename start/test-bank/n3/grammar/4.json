@@ -1,19 +1,19 @@
 {
-  "stem": "彼のスピーチは大きな<u>喝采</u>を浴びた。",
+  "stem": "「山田部長、社長がお呼びですので、会議室まで（　　）。」",
   "options": [{
     "id": "A",
-    "content": "かつさい"
+    "content": "うかがってください"
   }, {
     "id": "B",
-    "content": "かっさい"
+    "content": "おうかがいください"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "おまいりしてください"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "いらしてください"
   }],
-  "answer": "B",
+  "answer": "D",
   "meta": {
     "level": ["N2"],
     "history": false,

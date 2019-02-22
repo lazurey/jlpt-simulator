@@ -1,19 +1,19 @@
 {
-  "stem": "彼のスピーチは大きな<u>喝采</u>を浴びた。",
+  "stem": "機械を使う<u>作業</u>なので、気をつけてください。",
   "options": [{
     "id": "A",
-    "content": "かつさい"
+    "content": "さぎょう"
   }, {
     "id": "B",
-    "content": "かっさい"
+    "content": "さくぎょう"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "さぎょ"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "さくぎょ"
   }],
-  "answer": "B",
+  "answer": "A",
   "meta": {
     "level": ["N2"],
     "history": false,

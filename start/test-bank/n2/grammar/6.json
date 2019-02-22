@@ -1,19 +1,19 @@
 {
-  "stem": "彼のスピーチは大きな<u>喝采</u>を浴びた。",
+  "stem": "一度本人に会って（　　）、どんな人か判断できない。",
   "options": [{
     "id": "A",
-    "content": "かつさい"
+    "content": "みては"
   }, {
     "id": "B",
-    "content": "かっさい"
+    "content": "みてはじめて"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "みるとなると"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "みないことには"
   }],
-  "answer": "B",
+  "answer": "D",
   "meta": {
     "level": ["N2"],
     "history": false,

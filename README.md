@@ -17,3 +17,6 @@ Built with
 **Content-wise**
 
 1. [ ] Find an easier way to maintain the test bank
+1. [ ] Fill 10x questions for each level
+1. [ ] Report error
+1. [ ] Enable people to contribute the test bank

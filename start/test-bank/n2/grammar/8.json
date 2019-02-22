@@ -1,19 +1,19 @@
 {
-  "stem": "彼のスピーチは大きな<u>喝采</u>を浴びた。",
+  "stem": "私は海外旅行（　　）、国内旅行もめったに行かない。",
   "options": [{
     "id": "A",
-    "content": "かつさい"
+    "content": "どころか"
   }, {
     "id": "B",
-    "content": "かっさい"
+    "content": "ばかりか"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "ところが"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "ばかりが"
   }],
-  "answer": "B",
+  "answer": "A",
   "meta": {
     "level": ["N2"],
     "history": false,

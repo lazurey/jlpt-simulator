@@ -1,19 +1,19 @@
 {
-  "stem": "彼のスピーチは大きな<u>喝采</u>を浴びた。",
+  "stem": "子どものころ、生活は<u>豊か</u>ではなかったが幸せだった。",
   "options": [{
     "id": "A",
-    "content": "かつさい"
+    "content": "のどか"
   }, {
     "id": "B",
-    "content": "かっさい"
+    "content": "すこやか"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "ゆだか"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "ゆたか"
   }],
-  "answer": "B",
+  "answer": "D",
   "meta": {
     "level": ["N2"],
     "history": false,

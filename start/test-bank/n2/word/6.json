@@ -1,19 +1,19 @@
 {
-  "stem": "彼のスピーチは大きな<u>喝采</u>を浴びた。",
+  "stem": "目を閉じで、ゆっくり<u>呼吸</u>をしてください。",
   "options": [{
     "id": "A",
-    "content": "かつさい"
+    "content": "こしゅう"
   }, {
     "id": "B",
-    "content": "かっさい"
+    "content": "こうしゅう"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "こきゅう"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "こうきゅう"
   }],
-  "answer": "B",
+  "answer": "C",
   "meta": {
     "level": ["N2"],
     "history": false,

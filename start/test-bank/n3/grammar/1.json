@@ -1,19 +1,19 @@
 {
-  "stem": "彼のスピーチは大きな<u>喝采</u>を浴びた。",
+  "stem": "その資料は読み終わり（　　）、受付に返してください。",
   "options": [{
     "id": "A",
-    "content": "かつさい"
+    "content": "後で"
   }, {
     "id": "B",
-    "content": "かっさい"
+    "content": "以降"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "結果"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "次第"
   }],
-  "answer": "B",
+  "answer": "D",
   "meta": {
     "level": ["N2"],
     "history": false,

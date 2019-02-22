@@ -1,19 +1,19 @@
 {
-  "stem": "彼のスピーチは大きな<u>喝采</u>を浴びた。",
+  "stem": "友達と約束したから、風邪でもパーティーに行く（　　）。",
   "options": [{
     "id": "A",
-    "content": "かつさい"
+    "content": "だけだ"
   }, {
     "id": "B",
-    "content": "かっさい"
+    "content": "ままだ"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "しかない"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "しかたがない"
   }],
-  "answer": "B",
+  "answer": "C",
   "meta": {
     "level": ["N2"],
     "history": false,

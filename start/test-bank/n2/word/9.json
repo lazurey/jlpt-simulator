@@ -1,17 +1,17 @@
 {
-  "stem": "彼のスピーチは大きな<u>喝采</u>を浴びた。",
+  "stem": "父は朝公園を散歩するのを<u>日課</u>としている。",
   "options": [{
     "id": "A",
-    "content": "かつさい"
+    "content": "にちか"
   }, {
     "id": "B",
-    "content": "かっさい"
+    "content": "にっか"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "じつか"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "じっか"
   }],
   "answer": "B",
   "meta": {

@@ -1,19 +1,19 @@
 {
-  "stem": "彼のスピーチは大きな<u>喝采</u>を浴びた。",
+  "stem": "日本<u>列島</u>は南北に長い。",
   "options": [{
     "id": "A",
-    "content": "かつさい"
+    "content": "れつとう"
   }, {
     "id": "B",
-    "content": "かっさい"
+    "content": "れつどう"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "れっと"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "れっとう"
   }],
-  "answer": "B",
+  "answer": "D",
   "meta": {
     "level": ["N2"],
     "history": false,

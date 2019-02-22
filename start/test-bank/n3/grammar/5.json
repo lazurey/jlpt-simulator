@@ -1,19 +1,19 @@
 {
-  "stem": "彼のスピーチは大きな<u>喝采</u>を浴びた。",
+  "stem": "たとえお金がなくて困って（　　）、そんな仕事はしたくない。",
   "options": [{
     "id": "A",
-    "content": "かつさい"
+    "content": "いても"
   }, {
     "id": "B",
-    "content": "かっさい"
+    "content": "いるのに"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "いるなら"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "いれば"
   }],
-  "answer": "B",
+  "answer": "A",
   "meta": {
     "level": ["N2"],
     "history": false,

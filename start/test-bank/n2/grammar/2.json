@@ -1,19 +1,19 @@
 {
-  "stem": "彼のスピーチは大きな<u>喝采</u>を浴びた。",
+  "stem": "田中さんは選手を引退した後、監督（　　）してサッカー界で活躍している。",
   "options": [{
     "id": "A",
-    "content": "かつさい"
+    "content": "で"
   }, {
     "id": "B",
-    "content": "かっさい"
+    "content": "に"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "と"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "を"
   }],
-  "answer": "B",
+  "answer": "C",
   "meta": {
     "level": ["N2"],
     "history": false,

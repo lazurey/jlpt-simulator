@@ -1,17 +1,17 @@
 {
-  "stem": "彼のスピーチは大きな<u>喝采</u>を浴びた。",
+  "stem": "山村さんはアメリカに十年も住んでいたから、英語が上手な（　　）。",
   "options": [{
     "id": "A",
-    "content": "かつさい"
+    "content": "わけだ"
   }, {
     "id": "B",
-    "content": "かっさい"
+    "content": "ものだ"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "つもりだ"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "ことだ"
   }],
   "answer": "B",
   "meta": {

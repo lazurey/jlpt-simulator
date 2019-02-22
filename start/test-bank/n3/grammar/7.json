@@ -1,19 +1,19 @@
 {
-  "stem": "彼のスピーチは大きな<u>喝采</u>を浴びた。",
+  "stem": "佐藤さんの（　　）、パーティーは大成功に終わった。",
   "options": [{
     "id": "A",
-    "content": "かつさい"
+    "content": "次第で"
   }, {
     "id": "B",
-    "content": "かっさい"
+    "content": "きっかけで"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "おかげで"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "くせに"
   }],
-  "answer": "B",
+  "answer": "C",
   "meta": {
     "level": ["N2"],
     "history": false,
