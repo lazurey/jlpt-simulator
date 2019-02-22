@@ -1,5 +1,5 @@
-import { default as React } from 'react';
 import { css } from 'emotion';
+import { default as React } from 'react';
 import { PageContainer } from '../components/layout';
 import { CODE_REPO } from '../constants/common';
 

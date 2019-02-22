@@ -12,13 +12,13 @@ export enum TEST_LEVEL {
 
 export const TEST_SIZE_OPTIONS = [{
   value: TEST_TIME.QUICK,
-  displayText: 'Quick / 15 mins',
+  displayText: '１０分 / ９問題',
 }, {
   value: TEST_TIME.MEDIUM,
-  displayText: 'Practice / 60 mins',
+  displayText: '１５分 / １５問題',
 }, {
   value: TEST_TIME.FULL,
-  displayText: 'Real / 90 mins',
+  displayText: '３０分 / ３０問題',
 }];
 
 export const TEST_LEVEL_OPTIONS = [{
@@ -30,12 +30,7 @@ export const TEST_LEVEL_OPTIONS = [{
 }, {
   value: TEST_LEVEL.N1,
   displayText: 'N1',
-},
-// , {
-//   value: 'random',
-//   displayText: 'N1 ~ N3',
-// }
-];
+}];
 
 export enum QUESTION_TYPE {
   Word = 'word',
