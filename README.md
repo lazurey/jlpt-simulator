@@ -12,8 +12,9 @@ Built with
 **Tech-wise**
 
 1. [x] Generate test bank status automatically
-1. [ ] Keyboard select ABCD & 1234
-1. [ ] Time countdown
+1. [x] Keyboard select ABCD & 1234
+1. [x] Time countdown
+1. [ ] Add specifc question type exercise
 1. [ ] Cache questions in memory
 1. [ ] Check history tests
 1. [ ] View all wrong answers in the history
