@@ -9,6 +9,8 @@ const containerStyles = css({
   margin: '0 auto',
   backgroundColor: BG_COLOR,
   minHeight: '100vh',
+  minWidth: '320px',
+  overflowX: 'scroll',
 });
 
 export const Main = ({ children }: { children: any}) => (

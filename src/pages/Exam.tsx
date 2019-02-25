@@ -11,6 +11,22 @@ import { IViewQuestion } from '../modules/test-generator/interfaces';
 import { TestSetStatus } from '../modules/test-generator/TestSet';
 import { curTestSet } from '../store';
 
+const VALID_KEYS = ['1', '2', '3', '4', 'a', 'b', 'c', 'd', 'A', 'B', 'C', 'D'];
+const KEY_MAP: any = {
+  '1': 'A',
+  '2': 'B',
+  '3': 'C',
+  '4': 'D',
+  'a': 'A',
+  'b': 'B',
+  'c': 'C',
+  'd': 'D',
+  'A': 'A',
+  'B': 'B',
+  'C': 'C',
+  'D': 'D',
+};
+
 const composeQuestion = (raw: any, questionIdx: string) => ({
   stem: `${questionIdx}、${raw.stem}`,
   options: raw.options,
@@ -83,6 +99,12 @@ export class Exam extends Component<any, IExamState> {
     });
   }
 
+  handleKeyboardSelect = (e: KeyboardEvent) => {
+    if (VALID_KEYS.indexOf(e.key) > -1) {
+      this.setUserAnswer(KEY_MAP[e.key]);
+    }
+  }
+
   componentDidUpdate(prevProps: any) {
     const currentQuestionIdx = this.props.match.params.qIdx;
     const prevQuestionIdx = prevProps.match.params.qIdx;
@@ -95,8 +117,13 @@ export class Exam extends Component<any, IExamState> {
     }
   }
 
+  componentWillUnmount() {
+    document.onkeyup = null;
+  }
+
   componentDidMount() {
     this.handleQuestionIdxUpdate();
+    document.onkeyup = this.handleKeyboardSelect;
   }
 
   renderNextBtn() {
@@ -146,6 +173,7 @@ export class Exam extends Component<any, IExamState> {
       { status === 'ready' && currentQuestion !== null && this.renderQuestion() }
       { status === 'failed' && this.renderErrorMsg() }
       { (status === 'loading' || currentQuestion === null) && <Skeleton /> }
+      <p><small>Tip: use 1, 2, 3, 4, or a, b, c, d to do quick select on desktop</small></p>
     </PageContainer>);
   }
 }
