@@ -12,13 +12,13 @@ export enum TEST_LEVEL {
 
 export const TEST_SIZE_OPTIONS = [{
   value: TEST_TIME.QUICK,
-  displayText: '１０分 / ９問題',
+  displayText: '１０分 / ９問',
 }, {
   value: TEST_TIME.MEDIUM,
-  displayText: '１５分 / １５問題',
+  displayText: '１５分 / １５問',
 }, {
   value: TEST_TIME.FULL,
-  displayText: '３０分 / ３０問題',
+  displayText: '３０分 / ３０問',
 }];
 
 export const TEST_LEVEL_OPTIONS = [{
