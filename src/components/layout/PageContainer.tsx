@@ -3,6 +3,7 @@ import * as React from 'react';
 
 const containerStyles = css({
   padding: '40px 3.2%',
+  position: 'relative',
 });
 
 export const PageContainer = ({ children }: { children: any}) => (

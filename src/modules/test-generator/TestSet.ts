@@ -31,6 +31,7 @@ export class TestSet {
   };
   completed: boolean;
   subscribers: Array<(status: string) => void>;
+  totalTime: number;
 
   constructor(testBankStatus: any) {
     this.word = [];
@@ -46,6 +47,7 @@ export class TestSet {
     this.completed = false;
     this.subscribers = [];
     this.recoverFromLocalStorage();
+    this.totalTime = 600;
   }
 
   setTestSet = ({
@@ -187,6 +189,10 @@ export class TestSet {
 
   getUserAnswerByQidx = (qIdx: string) => {
     return this.userAnswers[qIdx].userAnswer;
+  }
+
+  getTotalTime = () => {
+    return this.time;
   }
 
   subscribeTestSetStatus = (callback: (status: string) => void) => {

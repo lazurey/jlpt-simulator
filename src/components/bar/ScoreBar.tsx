@@ -1,8 +1,8 @@
 import { css, cx } from 'emotion';
 import { default as React } from 'react';
 
-import { BG_COLOR,
-  PRIMARY_SEC_COLOR,
+import { PRIMARY_SEC_COLOR,
+  WHITE_COLOR,
  } from '../../constants/theme';
 
 interface IScoreBar {
@@ -14,7 +14,7 @@ interface IScoreBar {
 const barStyles = css({
   width: '100%',
   height: '40px',
-  border: `1px solid ${BG_COLOR}`,
+  backgroundColor: WHITE_COLOR,
   position: 'relative',
   textAlign: 'center',
   zIndex: 2,

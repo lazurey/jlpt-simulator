@@ -1,6 +1,7 @@
 import { Component, default as React } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/button';
+import { Countdown } from '../components/countdown';
 import { PageContainer } from '../components/layout';
 import { Skeleton } from '../components/loading';
 import { Question } from '../components/question';
@@ -139,8 +140,9 @@ export class Exam extends Component<any, IExamState> {
 
   render() {
     const { status, currentQuestion } = this.state;
-
+    const totalTime = curTestSet.getTotalTime();
     return (<PageContainer>
+      <Countdown total={parseInt(totalTime, 10)} />
       { status === 'ready' && currentQuestion !== null && this.renderQuestion() }
       { status === 'failed' && this.renderErrorMsg() }
       { (status === 'loading' || currentQuestion === null) && <Skeleton /> }

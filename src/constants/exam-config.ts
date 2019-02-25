@@ -1,7 +1,7 @@
 export enum TEST_TIME {
-  QUICK = 'quick',
-  MEDIUM = 'medium',
-  FULL = 'full',
+  QUICK = '600',
+  MEDIUM = '900',
+  FULL = '1800',
 }
 
 export enum TEST_LEVEL {

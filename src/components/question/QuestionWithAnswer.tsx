@@ -19,7 +19,6 @@ interface IQuestionWithAnswer {
 export const QuestionWithAnswer = (props: IQuestionWithAnswer) => {
   const { stem, options, questionId, userAnswer, correctAnswer } = props;
   const selectOptions = convertToReadOnlyOptions(options, userAnswer, correctAnswer);
-  console.log(selectOptions);
   return (<div>
     <RadioGroup
       selectedValue={userAnswer}
