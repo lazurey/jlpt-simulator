@@ -9,7 +9,7 @@ import { TEXT_SEC_COLOR } from '../../constants/theme';
 const footerStyles = css({
   lineHeight: '60px',
   borderTop: `1px solid ${TEXT_SEC_COLOR}`,
-  margin: '20px 20% 0',
+  margin: '20px 12% 0',
   textAlign: 'center',
   fontSize: '12px',
   color: TEXT_SEC_COLOR,
