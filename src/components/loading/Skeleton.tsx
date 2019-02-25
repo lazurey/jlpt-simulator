@@ -1,20 +1,21 @@
 import { css } from 'emotion';
 import { default as React } from 'react';
 
-import { BG_COLOR } from '../../constants/theme';
+import { WHITE_COLOR } from '../../constants/theme';
 
 const titleStyles = css({
   height: '40px',
   width: '90%',
-  backgroundColor: BG_COLOR,
-  opacity: 0.8,
+  backgroundColor: WHITE_COLOR,
+  opacity: 0.6,
   margin: '20px auto',
 });
 
 const itemStyles = css({
   height: '40px',
   width: '90%',
-  border: `1px solid ${BG_COLOR}`,
+  background: WHITE_COLOR,
+  opacity: 0.42,
   margin: '10px auto',
 });
 
