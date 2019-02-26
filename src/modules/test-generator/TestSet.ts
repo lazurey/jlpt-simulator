@@ -25,6 +25,7 @@ export class TestSet {
   level: TEST_LEVEL;
   time: TEST_TIME;
   testBankStatus: ITestSetConfig;
+  testBankStatusAllLevels: any;
   status: string;
   userAnswers: {
     [key: string]: IUserAnswer;
@@ -41,6 +42,7 @@ export class TestSet {
     this.testConfig = TEST_TIME_CONFIG[TEST_TIME.QUICK];
     this.level = TEST_LEVEL.N2;
     this.time = TEST_TIME.QUICK;
+    this.testBankStatusAllLevels = testBankStatus;
     this.testBankStatus = testBankStatus[this.level];
     this.status = TestSetStatus.NOT_SET;
     this.userAnswers = {};
@@ -82,7 +84,7 @@ export class TestSet {
                   testConfig,
                   level,
                   time,
-                  testBankStatus,
+                  // testBankStatus,
                   completed,
                   userAnswers,
           } = savedTestSet;
@@ -93,7 +95,7 @@ export class TestSet {
           this.testConfig = testConfig;
           this.level = level;
           this.time = time;
-          this.testBankStatus = testBankStatus;
+          // this.testBankStatus = testBankStatus;
           this.completed = completed;
           this.userAnswers = userAnswers;
           this.setTestSetStatus(TestSetStatus.READY);
@@ -108,7 +110,6 @@ export class TestSet {
   }
 
   saveTestSetToLocalStorage = () => {
-    console.log('save the whole object to local storage');
     BrowserStorage.setItem(MY_UNIQUE_KEY, {
       word: this.word,
       volcabulary: this.volcabulary,
@@ -125,6 +126,7 @@ export class TestSet {
 
   initTest = (time: TEST_TIME, level: TEST_LEVEL) => {
     this.setTestSetStatus(TestSetStatus.INITIATING);
+    this.setTestBankStatus(level);
     this.setTestConfig(time);
     this.setLevel(level);
     this.userAnswers = {};
@@ -149,6 +151,10 @@ export class TestSet {
 
   setLevel = (level: TEST_LEVEL) => {
     this.level = level;
+  }
+
+  setTestBankStatus = (level: TEST_LEVEL) => {
+    this.testBankStatus = this.testBankStatusAllLevels[level];
   }
 
   getQuestion = (questionIdx: string): Promise<IViewQuestion> => {
