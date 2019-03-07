@@ -1,0 +1,22 @@
+{
+  "stem": "期末テストが（ 　）いるので、遊ぶ暇がない。",
+  "options": [{
+    "id": "A",
+    "content": "迫って"
+  }, {
+    "id": "B",
+    "content": "近寄って"
+  }, {
+    "id": "C",
+    "content": "接して"
+  }, {
+    "id": "D",
+    "content": "限って"
+  }],
+  "answer": "A",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+} 

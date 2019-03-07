@@ -1,0 +1,22 @@
+{
+  "stem": "フランス語が話せると言っても、簡単な挨拶が（　　）過ぎない。",
+  "options": [{
+    "id": "A",
+    "content": "できない程度しか"
+  }, {
+    "id": "B",
+    "content": "できる程度しか"
+  }, {
+    "id": "C",
+    "content": "できない程度に"
+  }, {
+    "id": "D",
+    "content": "できる程度に"
+  }],
+  "answer": "D",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

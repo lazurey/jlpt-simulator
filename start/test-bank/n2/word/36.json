@@ -1,0 +1,22 @@
+{
+  "stem": "部屋にはタバコの<u>煙</u>が漂っている。",
+  "options": [{
+    "id": "A",
+    "content": "けむり"
+  }, {
+    "id": "B",
+    "content": "ほのお"
+  }, {
+    "id": "C",
+    "content": "みなと"
+  }, {
+    "id": "D",
+    "content": "とうげ"
+  }],
+  "answer": "A",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

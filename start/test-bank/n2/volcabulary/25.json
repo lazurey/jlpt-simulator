@@ -1,0 +1,22 @@
+{
+  "stem": "今の会社で（ 　）十年目になる。",
+  "options": [{
+    "id": "A",
+    "content": "勤続"
+  }, {
+    "id": "B",
+    "content": "連続"
+  }, {
+    "id": "C",
+    "content": "持続"
+  }, {
+    "id": "D",
+    "content": "継続"
+  }],
+  "answer": "A",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+} 

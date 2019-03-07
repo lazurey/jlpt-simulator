@@ -1,0 +1,22 @@
+{
+  "stem": "多くの動物が<u>絶滅</u>の危機に瀕している。",
+  "options": [{
+    "id": "A",
+    "content": "せつめつ"
+  }, {
+    "id": "B",
+    "content": "ぜつめつ"
+  }, {
+    "id": "C",
+    "content": "せっめつ"
+  }, {
+    "id": "D",
+    "content": "ぜっめつ"
+  }],
+  "answer": "B",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}
