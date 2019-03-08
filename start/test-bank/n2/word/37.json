@@ -1,0 +1,22 @@
+{
+  "stem": "このまま<u>中途半端</u>に終わりたくない。",
+  "options": [{
+    "id": "A",
+    "content": "ちゅうとはんぱ"
+  }, {
+    "id": "B",
+    "content": "ちゅとはんば"
+  }, {
+    "id": "C",
+    "content": "ちゅうとうはんぱ"
+  }, {
+    "id": "D",
+    "content": "ちゅうとうはんば"
+  }],
+  "answer": "A",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

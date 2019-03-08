@@ -1,0 +1,22 @@
+{
+  "stem": "料理ができない（　　）が、忙しいから外食が多い。",
+  "options": [{
+    "id": "A",
+    "content": "ものではない"
+  }, {
+    "id": "B",
+    "content": "わけではない"
+  }, {
+    "id": "C",
+    "content": "はずではない"
+  }, {
+    "id": "D",
+    "content": "ことではない"
+  }],
+  "answer": "B",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

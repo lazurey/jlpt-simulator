@@ -1,0 +1,22 @@
+{
+  "stem": "「では、わたくしがタクシーをお呼び（　　）。」",
+  "options": [{
+    "id": "A",
+    "content": "いたしましょう"
+  }, {
+    "id": "B",
+    "content": "申しましょう"
+  }, {
+    "id": "C",
+    "content": "おりましょう"
+  }, {
+    "id": "D",
+    "content": "ございましょう"
+  }],
+  "answer": "A",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

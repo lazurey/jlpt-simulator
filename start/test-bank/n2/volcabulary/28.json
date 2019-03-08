@@ -1,0 +1,22 @@
+{
+  "stem": "今日の会議で進行役を（ 　）のは木村さんだ。",
+  "options": [{
+    "id": "A",
+    "content": "みとめる"
+  }, {
+    "id": "B",
+    "content": "すすめる"
+  }, {
+    "id": "C",
+    "content": "ふくめる"
+  }, {
+    "id": "D",
+    "content": "つとめる"
+  }],
+  "answer": "D",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+} 

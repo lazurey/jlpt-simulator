@@ -1,0 +1,22 @@
+{
+  "stem": "アメリカツアーに出発（ 　）に、急な仕事の連絡が入った。",
+  "options": [{
+    "id": "A",
+    "content": "直前"
+  }, {
+    "id": "B",
+    "content": "当日"
+  }, {
+    "id": "C",
+    "content": "手前"
+  }, {
+    "id": "D",
+    "content": "目前"
+  }],
+  "answer": "A",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+} 

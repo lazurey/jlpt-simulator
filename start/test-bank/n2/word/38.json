@@ -1,0 +1,22 @@
+{
+  "stem": "<u>充実</u>した留学生活を送りたい。",
+  "options": [{
+    "id": "A",
+    "content": "しゅうしつ"
+  }, {
+    "id": "B",
+    "content": "しゅうじつ"
+  }, {
+    "id": "C",
+    "content": "じゅうしつ"
+  }, {
+    "id": "D",
+    "content": "じゅうじつ"
+  }],
+  "answer": "D",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}
