@@ -1,0 +1,22 @@
+{
+  "stem": "「社に戻り、上司と相談した（　　）、お返事いたします。」",
+  "options": [{
+    "id": "A",
+    "content": "そとで"
+  }, {
+    "id": "B",
+    "content": "うえで"
+  }, {
+    "id": "C",
+    "content": "なかで"
+  }, {
+    "id": "D",
+    "content": "もとで"
+  }],
+  "answer": "A",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

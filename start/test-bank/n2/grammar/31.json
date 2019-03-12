@@ -1,0 +1,22 @@
+{
+  "stem": "あのニュースを聞いて、驚きの（　　）しばらく動けなかった",
+  "options": [{
+    "id": "A",
+    "content": "あまり"
+  }, {
+    "id": "B",
+    "content": "すえに"
+  }, {
+    "id": "C",
+    "content": "うえに"
+  }, {
+    "id": "D",
+    "content": "ように"
+  }],
+  "answer": "A",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

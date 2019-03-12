@@ -1,0 +1,22 @@
+{
+  "stem": "<u>親孝行</u>したいときには親なし。",
+  "options": [{
+    "id": "A",
+    "content": "こやこうこ"
+  }, {
+    "id": "B",
+    "content": "おやこうこう"
+  }, {
+    "id": "C",
+    "content": "しこうこ"
+  }, {
+    "id": "D",
+    "content": "しんこうこう"
+  }],
+  "answer": "B",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

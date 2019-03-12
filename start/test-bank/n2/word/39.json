@@ -1,0 +1,22 @@
+{
+  "stem": "封筒に貼った切手が<u>剥がれた</u>。",
+  "options": [{
+    "id": "A",
+    "content": "かつがれた"
+  }, {
+    "id": "B",
+    "content": "つがれた"
+  }, {
+    "id": "C",
+    "content": "はがれた"
+  }, {
+    "id": "D",
+    "content": "こがれた"
+  }],
+  "answer": "C",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

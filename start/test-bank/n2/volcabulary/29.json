@@ -1,0 +1,29 @@
+{
+  "stem": "栄養の（ 　）な摂取は、肥満になる第一の原因だ。",
+  "options": [
+    {
+      "id": "A",
+      "content": "過半数"
+    },
+    {
+      "id": "B",
+      "content": "過密"
+    },
+    {
+      "id": "C",
+      "content": "過剰"
+    },
+    {
+      "id": "D",
+      "content": "過大"
+    }
+  ],
+  "answer": "C",
+  "meta": {
+    "level": [
+      "N2"
+    ],
+    "history": false,
+    "year": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "stem": "警察がスピード違反を厳しく（ 　）。",
+  "options": [
+    {
+      "id": "A",
+      "content": "取り替える"
+    },
+    {
+      "id": "B",
+      "content": "取り消す"
+    },
+    {
+      "id": "C",
+      "content": "取り入れる"
+    },
+    {
+      "id": "D",
+      "content": "取り締まる"
+    }
+  ],
+  "answer": "D",
+  "meta": {
+    "level": [
+      "N2"
+    ],
+    "history": false,
+    "year": ""
+  }
+}
