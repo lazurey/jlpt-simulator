@@ -1,0 +1,22 @@
+{
+  "stem": "現代社会は所得<u>格差</u>が大きい。",
+  "options": [{
+    "id": "A",
+    "content": "かくさ"
+  }, {
+    "id": "B",
+    "content": "かくさし"
+  }, {
+    "id": "C",
+    "content": "がくさ"
+  }, {
+    "id": "D",
+    "content": "かっさ"
+  }],
+  "answer": "A",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

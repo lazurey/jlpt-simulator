@@ -1,0 +1,22 @@
+{
+  "stem": "夕飯を作る（　　）、明日のお弁当の準備もしておく",
+  "options": [{
+    "id": "A",
+    "content": "たびに"
+  }, {
+    "id": "B",
+    "content": "ついでに"
+  }, {
+    "id": "C",
+    "content": "とおりに"
+  }, {
+    "id": "D",
+    "content": "最中"
+  }],
+  "answer": "B",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

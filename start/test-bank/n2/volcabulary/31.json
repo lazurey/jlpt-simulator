@@ -1,0 +1,29 @@
+{
+  "stem": "祖父の趣味は骨董品の（ 　）だ。",
+  "options": [
+    {
+      "id": "A",
+      "content": "コレクション"
+    },
+    {
+      "id": "B",
+      "content": "ゼミナール"
+    },
+    {
+      "id": "C",
+      "content": "カレンダー"
+    },
+    {
+      "id": "D",
+      "content": "ポロセス"
+    }
+  ],
+  "answer": "A",
+  "meta": {
+    "level": [
+      "N2"
+    ],
+    "history": false,
+    "year": ""
+  }
+}

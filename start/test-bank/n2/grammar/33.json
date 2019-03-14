@@ -1,0 +1,22 @@
+{
+  "stem": "英語は学生時代に習ったきりで、忘れ（）。",
+  "options": [{
+    "id": "A",
+    "content": "ほどだ"
+  }, {
+    "id": "B",
+    "content": "ところだ"
+  }, {
+    "id": "C",
+    "content": "かぎりだ"
+  }, {
+    "id": "D",
+    "content": "一方だ"
+  }],
+  "answer": "D",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

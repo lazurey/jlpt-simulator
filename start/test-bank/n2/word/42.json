@@ -1,0 +1,22 @@
+{
+  "stem": "日本の<u>出生</u>率低下する傾向にある。",
+  "options": [{
+    "id": "A",
+    "content": "しゅつせい"
+  }, {
+    "id": "B",
+    "content": "しゅっせい"
+  }, {
+    "id": "C",
+    "content": "しゅつしょう"
+  }, {
+    "id": "D",
+    "content": "しゅっしょう"
+  }],
+  "answer": "D",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

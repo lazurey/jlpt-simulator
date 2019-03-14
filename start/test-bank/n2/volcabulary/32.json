@@ -1,0 +1,29 @@
+{
+  "stem": "部下に（ 　）な指導を行う。",
+  "options": [
+    {
+      "id": "A",
+      "content": "適用"
+    },
+    {
+      "id": "B",
+      "content": "適度"
+    },
+    {
+      "id": "C",
+      "content": "適切"
+    },
+    {
+      "id": "D",
+      "content": "適当"
+    }
+  ],
+  "answer": "C",
+  "meta": {
+    "level": [
+      "N2"
+    ],
+    "history": false,
+    "year": ""
+  }
+}
