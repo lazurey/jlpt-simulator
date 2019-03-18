@@ -1,0 +1,22 @@
+{
+  "stem": "彼は研究がうまくいかず、少し焦り（　）なっているよううだ。",
+  "options": [{
+    "id": "A",
+    "content": "みたいに"
+  }, {
+    "id": "B",
+    "content": "やすく"
+  }, {
+    "id": "C",
+    "content": "らしく"
+  }, {
+    "id": "D",
+    "content": "ぎみに"
+  }],
+  "answer": "D",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

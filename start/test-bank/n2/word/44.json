@@ -1,0 +1,22 @@
+{
+  "stem": "子供を車の中に置き忘れるなんて、親として<u>失格</u>だ。",
+  "options": [{
+    "id": "A",
+    "content": "しっかく"
+  }, {
+    "id": "B",
+    "content": "しつかく"
+  }, {
+    "id": "C",
+    "content": "なつかく"
+  }, {
+    "id": "D",
+    "content": "なっかく"
+  }],
+  "answer": "A",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

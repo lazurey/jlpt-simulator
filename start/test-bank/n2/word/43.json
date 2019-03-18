@@ -1,0 +1,22 @@
+{
+  "stem": "夕方、<u>浜辺</u>を歩くのが好きだ。",
+  "options": [{
+    "id": "A",
+    "content": "はなへん"
+  }, {
+    "id": "B",
+    "content": "すなへん"
+  }, {
+    "id": "C",
+    "content": "はまべ"
+  }, {
+    "id": "D",
+    "content": "すなべ"
+  }],
+  "answer": "C",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}

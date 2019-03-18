@@ -1,0 +1,29 @@
+{
+  "stem": "いろいろ考えたが、（ 　）会社を辞めることにした。",
+  "options": [
+    {
+      "id": "A",
+      "content": "根底"
+    },
+    {
+      "id": "B",
+      "content": "結果"
+    },
+    {
+      "id": "C",
+      "content": "徹底"
+    },
+    {
+      "id": "D",
+      "content": "結局"
+    }
+  ],
+  "answer": "D",
+  "meta": {
+    "level": [
+      "N2"
+    ],
+    "history": false,
+    "year": ""
+  }
+}

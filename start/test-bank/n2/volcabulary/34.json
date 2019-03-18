@@ -1,0 +1,29 @@
+{
+  "stem": "社員たちは日ごろの不満を（ 　）いた。",
+  "options": [
+    {
+      "id": "A",
+      "content": "まとめて"
+    },
+    {
+      "id": "B",
+      "content": "訴えて"
+    },
+    {
+      "id": "C",
+      "content": "あつめて"
+    },
+    {
+      "id": "D",
+      "content": "与えて"
+    }
+  ],
+  "answer": "B",
+  "meta": {
+    "level": [
+      "N2"
+    ],
+    "history": false,
+    "year": ""
+  }
+}

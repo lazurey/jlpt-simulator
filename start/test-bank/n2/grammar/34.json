@@ -1,0 +1,22 @@
+{
+  "stem": "急いでいる時（　）、タクシーがなかなか捕まらない。",
+  "options": [{
+    "id": "A",
+    "content": "にいたって"
+  }, {
+    "id": "B",
+    "content": "にとって"
+  }, {
+    "id": "C",
+    "content": "にかぎって"
+  }, {
+    "id": "D",
+    "content": "において"
+  }],
+  "answer": "C",
+  "meta": {
+    "level": ["N2"],
+    "history": false,
+    "year": ""
+  }
+}
