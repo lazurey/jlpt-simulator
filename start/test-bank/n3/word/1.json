@@ -8,14 +8,14 @@
     "content": "かっさい"
   }, {
     "id": "C",
-    "content": "かつさい"
+    "content": "かつざい"
   }, {
     "id": "D",
-    "content": "かつさい"
+    "content": "かさい"
   }],
   "answer": "B",
   "meta": {
-    "level": ["N2"],
+    "level": ["N3"],
     "history": false,
     "year": ""
   }
